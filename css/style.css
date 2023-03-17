@@ -6,10 +6,9 @@
 
 /* -------------------section 1------------------------- */
 .TransportContainerbcg {
-    /* border: 2px rgb(30, 255, 0) soild; */
+    border: 2px rgb(30, 255, 0) soild;
     background: url('/img/section1/Group\ 10558.png')no-repeat center center/cover;
     position: relative;
-    width: 100%;
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -32,7 +31,7 @@
 }
 
 .navbar {
-    /* border: 2px red soild; */
+    border: 2px red soild;
     padding: 2rem 5px;
     position: fixed;
     top: 0;
@@ -40,7 +39,7 @@
     width: 100%;
     min-height: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: none;
 }
@@ -197,7 +196,7 @@
 @media (max-width: 500px) and (min-width: 320px) {
     .nav-btn {
 
-        margin-right: 8rem;
+        
         width: 90px;
         height: 40px;
     }
@@ -282,16 +281,16 @@
 /* -----@Media Quries Mobile-l425  ---- */
 @media (max-width: 500px) and (min-width: 320px) {
     .TransportContainerbcg {
-        padding: 8rem;
-        width: 120%
+       display: block;
+       
     }
 
-
+    
 
     .SubContainerpg1 {
-
-        padding-left: 2rem;
-
+        
+        padding-left: 3rem;
+ padding-top:6rem ;
         /* border: 3px rgb(0, 255, 98) solid; */
         font-size: 30px;
 
@@ -302,14 +301,19 @@
     .SubContainerpg2 {
         width: 380px;
         height: 200px;
-        margin-top: -4rem;
-        margin-bottom: -2rem;
+         margin-top: 1rem;
+      
         margin-right: 3rem;
         /* border: 3px rgb(0, 255, 98) solid; */
-        padding: 4rem 3rem;
+        padding: 4rem 5rem;
         font-size: px;
         text-align: center;
 
+    }
+    .textContainer{
+        padding-top: 5rem;
+        padding-left: 0.5rem;
+       
     }
 
     .SubContainerbtn {
@@ -322,6 +326,16 @@
 
 
 }
+@media(max-width: 320px){
+    .SubContainerpg1{
+     
+        padding-left: 1rem;
+    }
+    .SubContainerpg2{
+        /* border: 3px rgb(0, 255, 98) solid; */
+       padding-left: 2rem;
+    } 
+}
 
 
 
@@ -329,7 +343,7 @@
 
 OurEstContainerbcg {
     width: 100%px;
-    /* border: 3px red solid; */
+    border: 3px red solid;
     background-color: white;
 
 }
@@ -417,33 +431,33 @@ OurEstContainerbcg {
     .logo1 {
         width: 100px;
         height: 29px;
-        margin-right: 1.5rem;
+        margin-right: 2rem;
     }
 
     .logo2 {
 
         width: 60px;
-        height: 95px;
-        margin-right: 1.5rem;
+        height: 60px;
+        margin-right: 2rem;
     }
 
     .logo3 {
-        width: 120px;
+        width: 100px;
         height: 57px;
-        margin-right: 1.5rem;
+        margin-right: 2rem;
 
     }
 
     .logo4 {
-        width: 120px;
+        width: 100px;
         height: 149px;
         margin: auto;
     }
 
     .logo5 {
-        width: 90px;
-        height: 87px;
-        margin-left: 1.5rem;
+        width: 80px;
+        height: 70px;
+        margin-left: 2rem;
     }
 
 }
@@ -798,7 +812,9 @@ OurEstContainerbcg {
 
     }
 
-    .UsecaseContant {}
+    .UsecaseContant {
+        padding-right:4rem
+    }
 
     .UsecaseSubConatiner-grid2 {
         display: grid;
@@ -822,7 +838,7 @@ OurEstContainerbcg {
 /*  -----------section 5----- */
 
 .GetTouchContainerBcg {
-    background: url('/img/section5/Group\ 10565.png')no-repeat left;
+    background: url('/img/section5/Group\ 10565.png')no-repeat center center/cover;
     /* border: 2px red solid; */
     padding: 5rem;
     color: white;
@@ -1080,6 +1096,8 @@ OurEstContainerbcg {
 }
 
 /* -----Media Quries----- */
+
+
 @media(max-width:1440px) {
     .knowpara {
         /* border: 3px rgb(0, 255, 170) solid; */
@@ -1205,7 +1223,7 @@ OurEstContainerbcg {
 }
 
 .footerpara {
-    width: 225px;
+    width: 205px;
     height: 73px;
 }
 
@@ -1296,6 +1314,7 @@ OurEstContainerbcg {
 
 
 @media(max-width:425px) and (min-width:320px) {
+
 
     .footersectiongrid {
         display: grid;
