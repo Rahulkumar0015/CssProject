@@ -6,7 +6,7 @@
 
 /* -------------------section 1------------------------- */
 .TransportContainerbcg {
-
+    /* border: 2px rgb(30, 255, 0) soild; */
     background: url('/img/section1/Group\ 10558.png')no-repeat center center/cover;
     position: relative;
     width: 100%;
@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -32,7 +33,7 @@
 
 .navbar {
     /* border: 2px red soild; */
-    padding: 2rem 5px; 
+    padding: 2rem 5px;
     position: fixed;
     top: 0;
     left: 0;
@@ -69,7 +70,7 @@
 .hamburger {
     display: none;
     cursor: pointer;
-    background: #0000d1;
+    background: #6A82F4;
     padding: 0.5rem;
 }
 
@@ -85,12 +86,12 @@
 
 .navActive {
     background: #ebe9e9;
-   
-    
+
+
 }
 
 .navActive .nav-link {
-    color:blue;
+    color: blue;
 }
 
 
@@ -110,7 +111,7 @@
     border-radius: 10px;
     width: 140px;
     height: 40px;
-    margin-right: 3rem;
+    margin-right: 9rem;
 }
 
 .nav-anchortag1 {
@@ -121,10 +122,10 @@
 }
 
 
-@media(max-width:1024px){
+@media(max-width:1024px) {
     .nav-btn {
 
-        margin-right: 1rem;
+        margin-right: 3rem;
     }
 }
 
@@ -133,9 +134,10 @@
 
 
 
-    .navbar{
-        padding:1rem 0px;
+    .navbar {
+        padding: 1rem 0px;
     }
+
     .nav-link {
         color: #0000D1;
     }
@@ -184,17 +186,22 @@
     .active2 {
         display: block;
     }
+
     .nav-btn {
 
         margin-right: 4rem;
     }
 
 }
-@media (max-width: 500px) and (min-width: 375px) {
+
+@media (max-width: 500px) and (min-width: 320px) {
     .nav-btn {
 
-        margin-right: 1rem;
+        margin-right: 8rem;
+        width: 90px;
+        height: 40px;
     }
+
 
 }
 
@@ -273,41 +280,47 @@
 }
 
 /* -----@Media Quries Mobile-l425  ---- */
-@media (max-width: 500px) and (min-width: 375px) {
+@media (max-width: 500px) and (min-width: 320px) {
     .TransportContainerbcg {
         padding: 8rem;
+        width: 120%
     }
 
 
 
     .SubContainerpg1 {
-        width: 230px;
-        padding: 2rem;
-        margin-bottom: 4rem;
 
+        padding-left: 2rem;
+
+        /* border: 3px rgb(0, 255, 98) solid; */
         font-size: 30px;
 
-        /* border: 2px red solid; */
+
+
     }
 
     .SubContainerpg2 {
-        width: 200px;
-        margin-bottom: 10rem;
-        /* border: 2px red solid; */
-        padding: 1rem;
-        font-size: 20px;
-        text-align: left;
+        width: 380px;
+        height: 200px;
+        margin-top: -4rem;
+        margin-bottom: -2rem;
+        margin-right: 3rem;
+        /* border: 3px rgb(0, 255, 98) solid; */
+        padding: 4rem 3rem;
+        font-size: px;
+        text-align: center;
 
     }
 
     .SubContainerbtn {
-        margin-left: 2rem;
-        padding: 0rem 0rem;
 
+        margin-left: 7rem;
+        padding: 0.2px;
+        /* border: 3px rgb(0, 255, 98) solid; */
 
     }
 
-   
+
 }
 
 
@@ -400,10 +413,43 @@ OurEstContainerbcg {
         padding: 0rem 8rem;
 
     }
+
+    .logo1 {
+        width: 100px;
+        height: 29px;
+        margin-right: 1.5rem;
+    }
+
+    .logo2 {
+
+        width: 60px;
+        height: 95px;
+        margin-right: 1.5rem;
+    }
+
+    .logo3 {
+        width: 120px;
+        height: 57px;
+        margin-right: 1.5rem;
+
+    }
+
+    .logo4 {
+        width: 120px;
+        height: 149px;
+        margin: auto;
+    }
+
+    .logo5 {
+        width: 90px;
+        height: 87px;
+        margin-left: 1.5rem;
+    }
+
 }
 
 /* -----@Media Quries Mobile-l425  ---- */
-@media (max-width: 500px) and (min-width: 375px) {
+@media (max-width: 500px) and (min-width: 320px) {
 
 
 
@@ -414,7 +460,7 @@ OurEstContainerbcg {
     }
 
     .logo1 {
-        width: 146px;
+        width: 100px;
         height: 29px;
         margin: auto;
         margin-top: 3rem;
@@ -423,32 +469,31 @@ OurEstContainerbcg {
 
     .logo2 {
 
-        width: 85px;
-        height: 95px;
+        width: 80px;
+        height: 80px;
         margin: auto;
         margin-bottom: 3rem;
     }
 
     .logo3 {
-        width: 161px;
+        width: 100px;
         height: 57px;
         margin: auto;
 
     }
 
     .logo4 {
-        width: 149px;
+        width: 120px;
         height: 149px;
         margin: auto;
     }
 
     .logo5 {
-        width: 103px;
+        width: 80px;
         height: 87px;
         margin: auto;
     }
 }
-
 
 
 
@@ -593,6 +638,7 @@ OurEstContainerbcg {
     text-align: center;
     align-items: center;
     padding: 6rem;
+    margin-right: 1.5rem;
 
     /* border: 3px rgb(255, 174, 0) solid; */
 
@@ -605,19 +651,24 @@ OurEstContainerbcg {
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 5rem;
-    margin-top: -9rem;
-    /* border: 3px rgb(255, 0, 106) solid; */
+    padding: 3rem;
+
+    margin: 0rem 10rem;
+
+    margin-top: -4rem
+        /* border: 3px rgb(255, 0, 106) solid; */
 
 }
 
 .UsecaseContant {
 
+    padding: 3rem 0rem;
+    margin: 0rem 1rem;
+    background-color: #ffffff;
+    margin-right: 2rem;
 
-    padding: 1rem 1rem;
-    background-color: #FFFFFF;
     /* border: 3px rgb(255, 174, 0) solid; */
-    margin: 3rem;
+
 
 
 }
@@ -628,38 +679,42 @@ OurEstContainerbcg {
     padding: 1rem 1rem;
     background-color: #FFFFFF;
     /* border: 3px rgb(255, 174, 0) solid; */
-    margin: 4rem;
+    margin-right: 5rem;
+
+
 
 }
 
 
 .Usecaseimg {
     position: relative;
-    bottom: 3.5rem;
+    bottom: 4.8rem;
     width: 90px;
     height: 90px;
     /* border: 3px rgb(0, 255, 64) solid; */
-    margin: auto;
+
 
 }
 
 .UsecasePg1 {
 
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
-    margin: auto;
+
     margin-bottom: 1rem;
+    margin-top: -3rem;
     /* border: 3px rgb(0, 255, 64) solid; */
 
 
 }
 
 .UsecasePg2 {
-    margin: auto;
+
     font-size: 16px;
     color: #717274;
+    /* border: 3px rgb(255, 0, 157) solid; */
 
-    margin: auto;
+    padding: 0rem 2rem;
 
 
 }
@@ -668,9 +723,31 @@ OurEstContainerbcg {
 /* ----------@Media Quries Laptop-1024PX-------- */
 @media(max-width:1024px) {
     .UsecaseContant {
-        margin: 1rem;
+        /* border: 3px rgb(0, 255, 64) solid; */
+        padding: 1rem 0rem;
+        margin-right: 0.2rem;
+
+
     }
 
+    .UsecaseContant1 {
+        /* border: 3px rgb(0, 255, 64) solid; */
+
+        margin: 0rem 0.2rem;
+
+    }
+
+    .UsecaseSubConatiner-grid1 {
+        margin-bottom: 3rem;
+        margin-right: -2rem;
+        /* border: 3px rgb(0, 255, 64) solid; */
+
+    }
+    .UsecaseSubConatiner-grid2{
+        margin: 0rem 2rem;
+
+        margin-top: -6rem
+    }
 }
 
 
@@ -686,8 +763,17 @@ OurEstContainerbcg {
     }
 
     .UsecaseContant {
-        margin: 2rem;
+        margin-bottom: 4rem;
 
+    }
+
+    .UsecaseContant1 {
+        margin-bottom: 4rem;
+
+    }
+
+    .UsecasePg2 {
+        /* border: 3px rgb(0, 255, 64) solid; */
     }
 
     .UsecaseSubConatiner-grid2 {
@@ -699,7 +785,7 @@ OurEstContainerbcg {
 
 /* -----@Media Quries Mobile-l425  ---- */
 
-@media (max-width: 500px) and (min-width: 375px) {
+@media (max-width: 500px) and (min-width: 320px) {
 
     .UsecaseBackgrdContainer {
         display: block;
@@ -712,14 +798,18 @@ OurEstContainerbcg {
 
     }
 
-    .UsecaseContant {
-        margin: 2rem;
-
-    }
+    .UsecaseContant {}
 
     .UsecaseSubConatiner-grid2 {
         display: grid;
         grid-template-columns: 1fr;
+
+    }
+
+    .UsecasePg2 {
+        width: 280px;
+        height: 110px;
+
 
     }
 }
@@ -732,7 +822,7 @@ OurEstContainerbcg {
 /*  -----------section 5----- */
 
 .GetTouchContainerBcg {
-    background: url('/img/section5/Group\ 10565.png')no-repeat center center/cover;
+    background: url('/img/section5/Group\ 10565.png')no-repeat left;
     /* border: 2px red solid; */
     padding: 5rem;
     color: white;
@@ -755,7 +845,7 @@ OurEstContainerbcg {
 
 .GetTouchbtn {
     background-color: #ffd357;
-    padding: 1rem 2.2rem;
+    padding: 0.5rem 1.5rem;
     border: none;
     border-radius: 4px;
 
@@ -763,15 +853,36 @@ OurEstContainerbcg {
 
 .GetTouchbtnpg {
 
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 }
 
-@media (max-width: 500px) and (min-width: 375px) {
+/* @media(max-width:1440px) {
+    .GetTouchContainerBcg {
+        width: 150%;
+    }
+
+}
+@media(max-width:1024px) {
+    .GetTouchContainerBcg {
+        width: 150%;
+    }
+
+}
+@media(max-width:768px) {
+    .GetTouchContainerBcg {
+        width: 150%;
+    }
+
+} */
+@media (max-width: 500px) and (min-width: 320px) {
     .GetTouchContainerBcg {
         display: block;
     }
 
+    .GetTouchbtn {
+        padding: 0.5rem 0.5rem;
+    }
 
 }
 
@@ -861,7 +972,7 @@ OurEstContainerbcg {
 
 }
 
-@media (max-width: 500px) and (min-width: 375px) {
+@media (max-width: 500px) and (min-width: 320px) {
 
     .industriesSer-Container2 {
         display: grid;
@@ -909,7 +1020,7 @@ OurEstContainerbcg {
 }
 
 .knowImg {
-    /* border: 3px rgb(0, 255, 170) solid; */
+    /* border: 3px rgb(255, 94, 0) solid; */
     position: relative;
     bottom: 4rem;
     width: 89px;
@@ -918,15 +1029,16 @@ OurEstContainerbcg {
 
 
 }
-.knowpara{
 
+.knowpara {
+    /* border: 3px rgb(0, 255, 170) solid; */
 }
 
 .knowPg1 {
     position: relative;
     font-size: 20px;
     /* border: 3px rgb(0, 255, 170) solid; */
-    text-align: center;
+
     bottom: 4rem;
     top: 0.3rem;
     padding: 2rem;
@@ -936,17 +1048,19 @@ OurEstContainerbcg {
 }
 
 .knowImg2 {
-    /* border: 3px rgb(0, 255, 170) solid; */
+    /* border: 3px rgb(255, 208, 0) solid; */
     position: relative;
     top: 3rem;
-
+    padding: -3rem;
     text-align: center;
     margin: auto;
-    margin-left: 21.02rem;
+    margin-left: 20.5rem;
 
 
 
 }
+
+.knowpara {}
 
 .knowimgPg1 {
     font-size: 22px;
@@ -954,16 +1068,28 @@ OurEstContainerbcg {
     color: #6A82F4;
     text-align: center;
     margin-top: 3rem;
+    /* border: 3px rgb(255, 208, 0) solid; */
 }
 
 .knowimgPg2 {
     font-size: 16px;
     text-align: center;
     margin-bottom: 4rem;
+    /* border: 3px rgb(255, 208, 0) solid; */
 
 }
 
 /* -----Media Quries----- */
+@media(max-width:1440px) {
+    .knowpara {
+        /* border: 3px rgb(0, 255, 170) solid; */
+        padding: 0rem 15rem;
+        margin-left: -1rem;
+
+    }
+
+}
+
 @media(max-width:1024px) {
     .knowImg2 {
 
@@ -990,9 +1116,16 @@ OurEstContainerbcg {
         margin-right: 10rem;
     }
 
+    .knowpara {
+        /* border: 3px rgb(0, 255, 170) solid; */
+        padding: 0rem 15rem;
+        margin-left: 2.5rem;
+
+    }
+
 }
 
-@media(max-width:425px) and (min-width:375px) {
+@media(max-width:425px) and (min-width:320px) {
     .knowContiner {
         margin-left: 3rem;
         margin-right: 3rem;
@@ -1006,6 +1139,23 @@ OurEstContainerbcg {
     .knowImg2 {
 
         margin-left: 6.9rem;
+
+    }
+
+    .knowpara {
+        padding: 0rem 1rem;
+        margin-left: 0rem;
+    }
+
+    .knowPg {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:320px) {
+    .knowImg2 {
+
+        margin-left: 4.5rem;
 
     }
 }
@@ -1145,7 +1295,7 @@ OurEstContainerbcg {
 }
 
 
-@media(max-width:425px) and (min-width:375px) {
+@media(max-width:425px) and (min-width:320px) {
 
     .footersectiongrid {
         display: grid;
@@ -1162,7 +1312,8 @@ OurEstContainerbcg {
         padding: 2rem;
 
     }
-    .fotersection1{
-        margin:-2rem;
+
+    .fotersection1 {
+        margin: -2rem;
     }
 }
